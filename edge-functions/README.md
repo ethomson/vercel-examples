@@ -5,30 +5,15 @@
   </a>
 </p>
 
+Vercel Edge Functions allow you to deliver content to your site's visitors with speed _and_ personalization. They are deployed globally by default on Vercel's Edge Network and enable you to move server-side logic to the Edge, close to your visitor's origin.
+
+Edge Functions run _after_ the cache, and can both cache and return responses.
+
+To run code at the edge _before_ a request is processed, check out the examples for [Vercel Edge Middleware](https://github.com/vercel/examples/tree/main/edge-middleware).
+
 ## Index
 
-- [A/B Testing Google Optimize](./ab-testing-google-optimize)
-- [A/B Testing Simple](./ab-testing-simple)
-- [Add Header](./add-header)
-- [API Rate Limit and Tokens](./api-rate-limit-and-tokens)
-- [API Rate Limiting with Upstash](./api-rate-limit)
-- [Basic Auth Password Protection](./basic-auth-password)
-- [Bot Protection Botd](./bot-protection-botd)
-- [Bot Protection Datadome](./bot-protection-datadome)
-- [Clerk Authentication](./clerk-authentication)
-- [CORS](./cors)
-- [Crypto Web APIs](./crypto)
-- [Feature Flags Apple Store](./feature-flag-apple-store)
-- [Feature Flags ConfigCat](./feature-flag-configcat)
-- [Feature Flags Split.io](./feature-flag-split)
-- [Geolocation Country Block](./geolocation-country-block)
-- [Geolocation Headers](./geolocation)
-- [Hostname Rewrites](./hostname-rewrites)
-- [I18n](./i18n)
-- [IP Blocking with Datadome](./ip-blocking-datadome)
+- [Cache Control Headers](./cache-control)
+- [Hello, World](./hello-world)
 - [JSON Response](./json-response)
-- [JWT Authentication](./jwt-authentication)
-- [Power Parity Pricing Strategies](./power-parity-pricing-strategies)
-- [Power Parity Pricing](./power-parity-pricing)
-- [Query Parameters Filter](./query-params-filter)
-- [Scalable redirects with Upstash](./redirects-upstash)
+- [Query Parameters](./query-parameters)
